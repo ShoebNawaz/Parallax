@@ -1,0 +1,166 @@
+body, html{
+ height:100%;
+ margin:0;
+ font-size:16px;
+ font-family:"Lato", sans-serif;
+ font-weight:400;
+ line-height:1.8em;
+ color:#666;
+}
+ul{
+ margin: 0;
+ padding: 0;
+ text-decoration: none;
+ list-style: none;
+}
+header{
+ border-bottom: 5px solid #ff0000;
+ background-color: #404053;
+ color: #fff;
+ position: relative;
+ padding: 10px;
+ min-height: 70px;
+ /* position: fixed; */
+ max-width: 100%;
+ overflow: hidden;
+}
+header span{
+ color: rgb(241, 7, 7); 
+}
+header a{
+ text-decoration: none;
+ font-size: 1rem;
+ color: red;
+ padding: 0%;
+}
+header h1{
+ padding-top: 20px;
+ padding-left: 20px;
+ border: 0;
+ margin: 0;
+}
+header li{
+ display: inline;
+ padding: 0 15px 0 20px;
+ color: rgb(241, 7, 7);
+}
+header .wename{
+ float: left;
+ padding-left: 10px;
+ padding-top: 40px;
+}
+header nav{
+ float: right;
+ position: relative;
+ top:0px;
+ border-top: 5px;
+}
+.pimg1, .pimg2, .pimg3{
+  position:relative;
+  opacity:0.90;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+.pimg1{
+  background-image:url('img.jpg');
+  min-height:35rem;
+}
+.pimg1 p{
+ font-family: 'Times New Roman', Times, serif;
+ letter-spacing: normal;
+ text-transform: none;
+ color: #ffffff;
+ opacity: 1.0;
+ background-color: #000000;
+ padding: 20px;
+ margin: 100px 350px 30px 350px;
+}
+
+.pimg2{
+  background-image:url('img2.jpg');
+  min-height:400px;
+}
+
+.pimg3{
+  background-image:url('img3.jpg');
+  min-height:400px;
+}
+
+.section{
+  text-align:center;
+  padding:50px 80px;
+}
+
+.section-light{
+  background-color:#f4f4f4;
+  color:#666;
+}
+
+.section-dark{
+  background-color:#000000;
+  color:#ddd;
+}
+
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.ptext .border{
+  background-color:#ff0000;
+  color:#fff;
+  padding:20px;
+}
+footer{
+ background-color: black;
+ color: #fff;
+ font-size: 1.3rem;
+ text-align: center;
+ padding: 15px;
+}
+footer span{
+ color: #ff0000;
+}
+@media(max-width:850px){
+ .pimg1 p{
+  font-family: 'Times New Roman', Times, serif;
+ opacity: 0.75;  
+  letter-spacing: none;
+  text-transform: none;
+  padding: 10px;
+  margin: 20%;
+  overflow: hidden;
+  margin-top: 20px;
+ } 
+ span{
+  overflow: hidden;
+ }
+ header nav{
+  float: left;
+ }
+ 
+.ptext{
+ text-align:center;
+ color:#000;
+ font-size: 15px;
+ font-family: 'Times New Roman', Times, serif;
+}
+
+.ptext .border{
+ background-color:#000000;
+ color:white;
+ opacity: 0.75;
+}
+header li{
+ display: block;
+ padding: 3px 20px;
+}
+}
